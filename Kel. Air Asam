@@ -1,0 +1,166 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelurahan Air Asam</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2e8bc0;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      background-color: #145da0;
+    }
+    nav ul li {
+      margin: 0.5rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      display: block;
+      border-radius: 5px;
+    }
+    nav ul li a:hover {
+      background-color: #0c2d48;
+    }
+    section {
+      padding: 2rem;
+      background-color: white;
+      margin: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #145da0;
+    }
+    footer {
+      background-color: #2e8bc0;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form input[type="submit"] {
+      background-color: #2e8bc0;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    form input[type="submit"]:hover {
+      background-color: #145da0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kelurahan Air Asam</h1>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#struktur">Struktur</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#informasi">Informasi</a></li>
+        <li><a href="#pengaduan">Pengaduan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>  <section id="beranda">
+    <h2>Selamat Datang</h2>
+    <p>Website resmi Kelurahan Air Asam. Kami hadir untuk memberikan pelayanan terbaik dan informasi terkini bagi seluruh warga.</p>
+  </section>  <section id="profil">
+    <h2>Profil Kelurahan</h2>
+    <h3>Sejarah Singkat</h3>
+    <p>Kelurahan Air Asam memiliki sejarah panjang dan kaya, dimulai sejak tahun ...</p>
+    <h3>Visi</h3>
+    <p>Menjadi kelurahan yang maju, mandiri, dan sejahtera.</p>
+    <h3>Misi</h3>
+    <ul>
+      <li>Meningkatkan kualitas pelayanan publik</li>
+      <li>Mendorong partisipasi masyarakat</li>
+      <li>Menciptakan lingkungan bersih dan sehat</li>
+    </ul>
+  </section>  <section id="struktur">
+    <h2>Struktur Organisasi</h2>
+    <ul>
+      <li>Lurah: [Nama Lurah]</li>
+      <li>Sekretaris: [Nama Sekretaris]</li>
+      <li>Kepala Seksi: Pemerintahan, Pembangunan, Kesejahteraan Sosial, Ketertiban</li>
+    </ul>
+  </section>  <section id="layanan">
+    <h2>Layanan Masyarakat</h2>
+    <ul>
+      <li>Administrasi: Surat-surat & legalisasi</li>
+      <li>Perizinan: IMB, izin usaha</li>
+      <li>Bantuan Sosial: Sembako, pendidikan</li>
+    </ul>
+  </section>  <section id="program">
+    <h2>Program Unggulan</h2>
+    <ul>
+      <li>Kebersihan Lingkungan</li>
+      <li>Peningkatan Ekonomi (UMKM)</li>
+      <li>Kesehatan Masyarakat</li>
+    </ul>
+  </section>  <section id="galeri">
+    <h2>Galeri Kegiatan</h2>
+    <p>Foto dan video kegiatan akan ditampilkan di sini.</p>
+  </section>  <section id="informasi">
+    <h2>Informasi Penting</h2>
+    <ul>
+      <li>Pengumuman terbaru</li>
+      <li>Berita terkini</li>
+      <li>Acara mendatang</li>
+    </ul>
+  </section>  <section id="pengaduan">
+    <h2>Pengaduan Warga</h2>
+    <form>
+      <label for="nama">Nama:</label><br>
+      <input type="text" id="nama" name="nama"><br><label for="pengaduan">Isi Pengaduan:</label><br>
+  <textarea id="pengaduan" name="pengaduan"></textarea><br>
+
+  <label for="foto">Upload Foto:</label><br>
+  <input type="file" id="foto" name="foto"><br>
+
+  <label for="lokasi">Lokasi:</label><br>
+  <input type="text" id="lokasi" name="lokasi"><br>
+
+  <label for="tanggal">Tanggal:</label><br>
+  <input type="date" id="tanggal" name="tanggal"><br><br>
+
+  <input type="submit" value="Kirim Pengaduan">
+</form>
+
+  </section>  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Alamat: Jl. Lurus, Kel. Air Asam, Kecamatan Belinyu, Kab. Bangka</p>
+    <p>Telepon: 0812-9726-4096</p>
+    <p>Email: kel.airasam@gmail.com</p>
+  </section>  <footer>
+    <p>&copy; 2025 Kelurahan Air Asam</p>
+  </footer>
+</body>
+</html>
